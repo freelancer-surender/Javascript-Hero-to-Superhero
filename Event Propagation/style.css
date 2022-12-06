@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 400px;
+    height: 600px;
+    background-color: #1e494a;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.parent:active {
+    background-color: #f53c83;
+}
+
+.child {
+    width: 300px;
+    height: 400px;
+    background-color: #fda711;
+    padding: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.child:active {
+    background-color: #2225f4;
+}
+
+.grand-child {
+    width: 200px;
+    height: 200px;
+    background-color: #9c19e8;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.grand-child:active {
+    background-color: #2ec70c;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 20px;
+}
